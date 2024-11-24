@@ -29,15 +29,16 @@
          font-weight:bold
         }
 
-      div{color:green;
+      .hover-div{color:green;
         font-size:24px;
          font-weight:bold;
          transition: background-color 0.3s, transform 0.3s;}
-       div:hover{background-color: black; 
-                 transform: scale(1.1)}
+       .hover-divdiv:hover{background-color: green; 
+                 transform: scale(1.1);
+                          font-align:center}
 img {
-  max-width: 600px%; /* Ensures the image scales to fit its container */
-  height: 2opx; /* Maintains aspect ratio */
+  max-width: 60px%; /* Ensures the image scales to fit its container */
+  height: 20px; /* Maintains aspect ratio */
   display: block; /* Removes extra spacing around the image */
  
   border-radius: 10px; /* Adds rounded corners for a modern look */
@@ -45,7 +46,7 @@ img {
 }
 
 .image-container {
-  max-width: 600px; /* Limits the width of the container */
+  max-width: 60px; /* Limits the width of the container */
   margin-left:0; /* Centers the container and adds space around */
   text-align: center; /* Centers the image description (if any) */
 }
@@ -55,14 +56,14 @@ img {
 }
 
 
-       span{background-color:black}
+       .div-names{background-color:blue}
       
     </style>
 </head>
     <body>
 
 
-      <div>  <a href="index.html">HOME</a>
+      <div class="hover-div">  <a href="index.html">HOME</a>
         <a href="project.html">ABOUT</a>
         <a href="practical.html">PROJECT</a>
         <a href="about.html">GALLERY</a>
@@ -110,10 +111,11 @@ img {
 
 <p>
   <h1>MY TEAM MEMBERS</h1>
-  <span>
+  <div class="div-names">
     1:AKELURU DUNGASE JAMES [1705917042]<br>
     2:SAMUEL TETTEY NYARKO [1705918382]<br>
-    3:ENOCK BOADU [1704751112]</span>
+    3:ENOCK BOADU [1704751112]
+  </div>
 
 
 </p>
