@@ -29,22 +29,25 @@
          font-weight:bold
         }
 
-      .hover-div{color:blue;
-        font-size:24px;
-         font-weight:bold;
-         transition:{ background-color 0.3s, transform 0.3s;}
-       .hover-div a:hover{background-color: gray; 
-                 transform: scale(1.1);
-                          font-align:center}
-img {
-  max-width: 600px%; /* Ensures the image scales to fit its container */
-  height: 400px; /* Maintains aspect ratio */
-  padding:2px;
-  margin:0
- 
- 
- 
+      .hover-div {
+  color: blue;
+  font-size: 24px;
+  font-weight: bold;
+  transition: background-color 0.3s, transform 0.3s; /* Remove the curly braces */
 }
+
+.hover-div a:hover {
+  background-color: gray;
+  transform: scale(1.1);
+  text-align: center; /* Corrected property name */
+}
+
+img {
+  max-width: 100%;  /* Ensures the image scales to fit the width of the screen */
+  height: auto;     /* Maintains the aspect ratio */
+  display: block;   /* Removes extra space below the image */
+}
+
 
 .haha{color:green}
 
